@@ -35,3 +35,7 @@ Como é um projeto puramente voltado para o Front-end (HTML/CSS), não é necess
 2. Navegue até a pasta do projeto:
    `cd TripWay`
 3. Dê um duplo clique no arquivo `index.html` para abri-lo em seu navegador padrão.
+
+### Autores do projeto:
+* Marcus Vinicius Alberes Barbosa / RM: 576952
+* Raphael da Silva do Carmo  / RM: 576923
