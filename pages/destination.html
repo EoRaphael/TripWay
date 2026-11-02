@@ -4,52 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
     <title>TripWay Destinos</title>
 </head>
 
 <body>
-    <nav>
-        <a href="../index.html">TripWay</a>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./destination.html">Destinos</a></li>
-            <li><a href="./services.html">Pacotes</a></li>
-            <li><a href="./contact.html">Nossos Contatos</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <a href="../index.html">TripWay</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./destination.html" class="ativo">Destinos</a></li>
+                <li><a href="./services.html">Pacotes</a></li>
+                <li><a href="./contact.html">Nossos Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <section>
+        <section id="destinos">
             <h2>Destinos</h2>
-            <p>Explore os destinos mais incríveis do mundo com a TripWay. Descubra lugares exóticos, praias
-                paradisíacas, cidades históricas e muito mais. Planeje sua próxima viagem conosco e viva experiências
-                inesquecíveis.</p>
+            <p>Explore os destinos mais incríveis do mundo com a TripWay. Descubra lugares exóticos, praias paradisíacas, cidades históricas e muito mais. Planeje sua próxima viagem conosco e viva experiências inesquecíveis.</p>
 
-            <div>
-                <h3>Fortaleza</h3>
-                <p>Descubra a beleza da cidade de Fortaleza, no Nordeste do Brasil. Explore suas belas praias, sinta a
-                    vibração da cultura local e desfrute de uma experiência inesquecível.</p>
-                <figure>
+            <div class="cards-container">
+                <article class="card">
                     <img src="../images/fortaleza.jpg" width="600" height="500" alt="Praia de Fortaleza">
-                </figure>
-            </div>
+                    <h3>Fortaleza</h3>
+                    <p>Descubra a beleza da cidade de Fortaleza, no Nordeste do Brasil. Explore suas belas praias, sinta a vibração da cultura local e desfrute de uma experiência inesquecível.</p>
+                </article>
 
-            <div>
-                <h3>Lisboa</h3>
-                <p>Descubra a magia da cidade de Lisboa, em Portugal. Explore suas ruas históricas, desfrute de uma rica
-                    cultura e sinta a vibe única da capital lusitana.</p>
-                <figure>
-                    <img src="../images/lisboa.jpg" width="600" height="500" alt="Lisboa">
-                </figure>
-            </div>
+                <article class="card">
+                    <img src="../images/lisboa.jpg" width="600" height="500" alt="Vista de Lisboa">
+                    <h3>Lisboa</h3>
+                    <p>Descubra a magia da cidade de Lisboa, em Portugal. Explore suas ruas históricas, desfrute de uma rica cultura e sinta a vibe única da capital lusitana.</p>
+                </article>
 
-            <div>
-                <h3>Liverpool</h3>
-                <p>Descubra a cultura e a história da cidade de Liverpool, no Reino Unido. Explore seus monumentos,
-                    desfrute de uma rica herança musical e sinta a energia única da capital inglesa.</p>
-                <figure>
-                    <img src="../images/liverpool.jpg" width="600" height="500" alt="Liverpool">
-                </figure>
+                <article class="card">
+                    <img src="../images/liverpool.jpg" width="600" height="500" alt="Vista de Liverpool">
+                    <h3>Liverpool</h3>
+                    <p>Descubra a cultura e a história da cidade de Liverpool, no Reino Unido. Explore seus monumentos, desfrute de uma rica herança musical e sinta a energia única da cidade.</p>
+                </article>
             </div>
         </section>
     </main>
