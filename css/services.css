@@ -1,0 +1,20 @@
+.pacote{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container-banner{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .container-banner{
+        flex-direction: column;
+    }
+}
