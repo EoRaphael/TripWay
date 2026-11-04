@@ -7,6 +7,7 @@ O TripWay é um site interativo focado em turismo e exploração de viagens. Atr
 
 ## Tecnologias Utilizadas
 * **HTML5:** Estruturação semântica das páginas.
+* **CSS:** A estilização e responsividade do site.
 * **Multimídia:** Imagens de alta qualidade em JPG e PNG para destacar os destinos.
 
 ## Estrutura do Projeto
@@ -20,9 +21,14 @@ TripWay/
 │   ├── destination.html    # Catálogo e detalhes dos destinos (Lisboa, Liverpool, etc.)
 │   ├── services.html       # Descrição dos pacotes e serviços oferecidos
 │   └── contact.html        # Página com formulário de contato
+├── css/
+│    ├──style.css
+│    ├──services.css   
+│    └──contact.css
 └── images/                 # Diretório de assets gráficos
     ├── banner.jpg
     ├── Services-Banner.png
+    ├── (Fotos das redes)
     └── ... (fotos dos destinos)
 ```
 
